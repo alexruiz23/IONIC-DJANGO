@@ -1,0 +1,291 @@
+{
+	"knownSymbols": {
+		"Component": [
+			{
+				"name": "Component",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"NgModule": [
+			{
+				"name": "NgModule",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"PreloadAllModules": [
+			{
+				"name": "PreloadAllModules",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"RouterModule": [
+			{
+				"name": "RouterModule",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"Routes": [
+			{
+				"name": "Routes",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"CUSTOM_ELEMENTS_SCHEMA": [
+			{
+				"name": "CUSTOM_ELEMENTS_SCHEMA",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"TestBed": [
+			{
+				"name": "TestBed",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"CommonModule": [
+			{
+				"name": "CommonModule",
+				"module": "@angular/common",
+				"isDefault": false
+			}
+		],
+		"IonicModule": [
+			{
+				"name": "IonicModule",
+				"module": "@ionic/angular",
+				"isDefault": false
+			}
+		],
+		"FormsModule": [
+			{
+				"name": "FormsModule",
+				"module": "@angular/forms",
+				"isDefault": false
+			}
+		],
+		"ComponentFixture": [
+			{
+				"name": "ComponentFixture",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"BrowserModule": [
+			{
+				"name": "BrowserModule",
+				"module": "@angular/platform-browser",
+				"isDefault": false
+			}
+		],
+		"RouteReuseStrategy": [
+			{
+				"name": "RouteReuseStrategy",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"IonicRouteStrategy": [
+			{
+				"name": "IonicRouteStrategy",
+				"module": "@ionic/angular",
+				"isDefault": false
+			}
+		],
+		"environment": [
+			{
+				"name": "environment",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/environments/environment.prod.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"getTestBed": [
+			{
+				"name": "getTestBed",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"platformBrowserDynamic": [
+			{
+				"name": "platformBrowserDynamic",
+				"module": "@angular/platform-browser-dynamic",
+				"isDefault": false
+			}
+		],
+		"Tab1PageRoutingModule": [
+			{
+				"name": "Tab1PageRoutingModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab1/tab1-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab1PageModule": [
+			{
+				"name": "Tab1PageModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab1/tab1.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab1Page": [
+			{
+				"name": "Tab1Page",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab1/tab1.page.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab3Page": [
+			{
+				"name": "Tab3Page",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab3/tab3.page.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab3PageRoutingModule": [
+			{
+				"name": "Tab3PageRoutingModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab3/tab3-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab3PageModule": [
+			{
+				"name": "Tab3PageModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab3/tab3.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabsPage": [
+			{
+				"name": "TabsPage",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tabs/tabs.page.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabsPageModule": [
+			{
+				"name": "TabsPageModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tabs/tabs.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TabsPageRoutingModule": [
+			{
+				"name": "TabsPageRoutingModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tabs/tabs-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ExploreContainerComponentModule": [
+			{
+				"name": "ExploreContainerComponentModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/explore-container/explore-container.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ExploreContainerComponent": [
+			{
+				"name": "ExploreContainerComponent",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/explore-container/explore-container.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Input": [
+			{
+				"name": "Input",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"Tab2PageRoutingModule": [
+			{
+				"name": "Tab2PageRoutingModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab2/tab2-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab2PageModule": [
+			{
+				"name": "Tab2PageModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab2/tab2.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Tab2Page": [
+			{
+				"name": "Tab2Page",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/tab2/tab2.page.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppComponent": [
+			{
+				"name": "AppComponent",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/app.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppRoutingModule": [
+			{
+				"name": "AppRoutingModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/app-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HomePage": [
+			{
+				"name": "HomePage",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/home/home.page.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HomePageModule": [
+			{
+				"name": "HomePageModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/home/home.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HomePageRoutingModule": [
+			{
+				"name": "HomePageRoutingModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/home/home-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppModule": [
+			{
+				"name": "AppModule",
+				"path": "/home/administrador/2EVA/IONIC/ejemplo1/src/app/app.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		]
+	}
+}
