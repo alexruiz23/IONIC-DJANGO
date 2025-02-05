@@ -50,7 +50,6 @@ class FormularioContacto(forms.Form):
     )    
     
     aficiones = forms.MultipleChoiceField(
-         required=False,
         choices=AFICIONES, 
         widget=forms.CheckboxSelectMultiple
     )
