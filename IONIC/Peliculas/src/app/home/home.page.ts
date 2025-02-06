@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ILibros } from '../interfaces/ilibros';
+import { SearchbarChangeEventDetail } from '@ionic/angular';
+import { IonSearchbarCustomEvent } from '@ionic/core';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +10,9 @@ import { ILibros } from '../interfaces/ilibros';
   standalone: false,
 })
 export class HomePage {
+onSearchChange($event: IonSearchbarCustomEvent<SearchbarChangeEventDetail>) {
+throw new Error('Method not implemented.');
+}
 
   misLibros:ILibros[]=[]
   activo: ILibros|undefined;
@@ -138,8 +143,8 @@ export class HomePage {
     }
     
   }
-  mostrarsumario(id:Number){
-    this.activo = undefined;
-    this.activo=this.misLibros.getmostrarsumario(id);
-}
+//   mostrarsumario(id:Number){
+//     this.activo = undefined;
+//     this.activo=this.misLibros.getmostrarsumario(id);
+// }
 }
