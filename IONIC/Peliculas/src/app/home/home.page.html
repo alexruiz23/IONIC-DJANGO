@@ -8,7 +8,8 @@
   </ion-header>
   <ion-grid fixed>
     <ion-row>
-      <ion-col size="6" *ngFor="let p of misLibros"> <div class="img-thumbnail img-fluid" (click)="mostrarsumario(p.id)">
+      <!-- (click)="mostrarsumario(p.id)" -->
+      <ion-col size="6" *ngFor="let p of misLibros"> <div class="img-thumbnail img-fluid" >
         <img class="imagen" src="assets/images/{{p.portada}}">
         <p class="display-4">{{p.titulo}}</p>
         <p class="display-5">{{p.publicacion}}</p>
