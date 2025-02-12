@@ -104,10 +104,9 @@ def buscar_numero(numero):
     return alumno
 
 def crear_alumno(frm:FrmAlumno):
-    nombre=frm.cleaned_data['nombre']
-    email=frm.cleaned_data['email']
-    dni=frm.cleaned_data['dni']
-    nota=frm.cleaned_data['nota']
-    alumno=Alumno(nombre=nombre,email=email,dni=dni,nota=nota)
-    #al=Alumno.objects.create(nombre=nombre,email=email,dni=dni,nota=nota)
-    return alumno@csrf_exempt
+    nombre = frm.cleaned_data['nombre']
+    email = frm.cleaned_data['email']
+    dni = frm.cleaned_data['dni']
+    nota = frm.cleaned_data['nota']
+    alumno = Alumno(nombre=nombre, email=email, dni=dni, nota=nota)
+    return alumno  # Just return the alumno object
