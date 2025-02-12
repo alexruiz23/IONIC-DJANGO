@@ -15,9 +15,10 @@ export class NoticiasService  {
     return this.http.get<RootObject>("https://newsapi.org/v2/top-headlines?apiKey=026d825ed05f40f68c723cfff5cb2972&country=us");
   }
   getTopHeadLines(){
-    return this.http.get<RootObject>(url+'apiKey='+environment.apiKey);
+    return this.http.get<RootObject>("https://newsapi.org/v2/top-headlines?country=us&apiKey=026d825ed05f40f68c723cfff5cb2972"
+    );
   }
   getTopHeadLinesCategory(){
-    return this.http.get<RootObject>(url+'category='+cat=+'&apikey'+environment.apiKey);
-  }
+    return this.http.get<RootObject>("/top-headlines?country=us&+"+category=+"cat=+026d825ed05f40f68c723cfff5cb2972"+environment+"026d825ed05f40f68c723cfff5cb2972");
+  };
 }
