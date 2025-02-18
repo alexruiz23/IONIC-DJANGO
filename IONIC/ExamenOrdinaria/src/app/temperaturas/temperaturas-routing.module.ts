@@ -5,7 +5,7 @@ import { TemperaturasPage } from './temperaturas.page';
 
 const routes: Routes = [
   {
-    path: 'temperaturas',
+    path: '',
     component: TemperaturasPage
   }
 ];
